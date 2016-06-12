@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0888B6440F8FC1AB2A10704B /* Pods_IdahoSpring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FDA0069F151D487F2A99A39 /* Pods_IdahoSpring.framework */; };
+		50B70AB91D0DB9B800610F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70AB81D0DB9B800610F52 /* AppDelegate.swift */; };
+		50B70ABB1D0DB9B800610F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70ABA1D0DB9B800610F52 /* ViewController.swift */; };
+		50B70ABE1D0DB9B900610F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B70ABC1D0DB9B900610F52 /* Main.storyboard */; };
+		50B70AC11D0DB9B900610F52 /* IdahoSpring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50B70ABF1D0DB9B900610F52 /* IdahoSpring.xcdatamodeld */; };
+		50B70AC31D0DB9B900610F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B70AC21D0DB9B900610F52 /* Assets.xcassets */; };
+		50B70AC61D0DB9B900610F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B70AC41D0DB9B900610F52 /* LaunchScreen.storyboard */; };
+		50B70AD11D0DB9B900610F52 /* IdahoSpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70AD01D0DB9B900610F52 /* IdahoSpringTests.swift */; };
+		50B70ADC1D0DB9B900610F52 /* IdahoSpringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70ADB1D0DB9B900610F52 /* IdahoSpringUITests.swift */; };
+		50B70AEA1D0DBAF600610F52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50B70AE91D0DBAF600610F52 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B70ACD1D0DB9B900610F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B70AAD1D0DB9B800610F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B70AB41D0DB9B800610F52;
+			remoteInfo = IdahoSpring;
+		};
+		50B70AD81D0DB9B900610F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B70AAD1D0DB9B800610F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B70AB41D0DB9B800610F52;
+			remoteInfo = IdahoSpring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4E07B7654B0DD3A6B1378F /* Pods-IdahoSpring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdahoSpring.release.xcconfig"; path = "Pods/Target Support Files/Pods-IdahoSpring/Pods-IdahoSpring.release.xcconfig"; sourceTree = "<group>"; };
+		1FDA0069F151D487F2A99A39 /* Pods_IdahoSpring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdahoSpring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B70AB51D0DB9B800610F52 /* IdahoSpring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdahoSpring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B70AB81D0DB9B800610F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50B70ABA1D0DB9B800610F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50B70ABD1D0DB9B900610F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50B70AC01D0DB9B900610F52 /* IdahoSpring.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IdahoSpring.xcdatamodel; sourceTree = "<group>"; };
+		50B70AC21D0DB9B900610F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B70AC51D0DB9B900610F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50B70AC71D0DB9B900610F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B70ACC1D0DB9B900610F52 /* IdahoSpringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdahoSpringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B70AD01D0DB9B900610F52 /* IdahoSpringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdahoSpringTests.swift; sourceTree = "<group>"; };
+		50B70AD21D0DB9B900610F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B70AD71D0DB9B900610F52 /* IdahoSpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdahoSpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B70ADB1D0DB9B900610F52 /* IdahoSpringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdahoSpringUITests.swift; sourceTree = "<group>"; };
+		50B70ADD1D0DB9B900610F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B70AE91D0DBAF600610F52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F0C2CB741D959B61D80A866 /* Pods-IdahoSpring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdahoSpring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IdahoSpring/Pods-IdahoSpring.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B70AB21D0DB9B800610F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888B6440F8FC1AB2A10704B /* Pods_IdahoSpring.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B70AC91D0DB9B900610F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B70AD41D0DB9B900610F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E821CF3B68B70108D95BB8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C2CB741D959B61D80A866 /* Pods-IdahoSpring.debug.xcconfig */,
+				0E4E07B7654B0DD3A6B1378F /* Pods-IdahoSpring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50B70AAC1D0DB9B800610F52 = {
+			isa = PBXGroup;
+			children = (
+				50B70AB71D0DB9B800610F52 /* IdahoSpring */,
+				50B70ACF1D0DB9B900610F52 /* IdahoSpringTests */,
+				50B70ADA1D0DB9B900610F52 /* IdahoSpringUITests */,
+				50B70AB61D0DB9B800610F52 /* Products */,
+				3E821CF3B68B70108D95BB8B /* Pods */,
+				E0649C8FA1B23D8A3F5F7ABC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50B70AB61D0DB9B800610F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B70AB51D0DB9B800610F52 /* IdahoSpring.app */,
+				50B70ACC1D0DB9B900610F52 /* IdahoSpringTests.xctest */,
+				50B70AD71D0DB9B900610F52 /* IdahoSpringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B70AB71D0DB9B800610F52 /* IdahoSpring */ = {
+			isa = PBXGroup;
+			children = (
+				50B70AB81D0DB9B800610F52 /* AppDelegate.swift */,
+				50B70ABA1D0DB9B800610F52 /* ViewController.swift */,
+				50B70ABC1D0DB9B900610F52 /* Main.storyboard */,
+				50B70AC21D0DB9B900610F52 /* Assets.xcassets */,
+				50B70AC41D0DB9B900610F52 /* LaunchScreen.storyboard */,
+				50B70AE91D0DBAF600610F52 /* GoogleService-Info.plist */,
+				50B70AC71D0DB9B900610F52 /* Info.plist */,
+				50B70ABF1D0DB9B900610F52 /* IdahoSpring.xcdatamodeld */,
+			);
+			path = IdahoSpring;
+			sourceTree = "<group>";
+		};
+		50B70ACF1D0DB9B900610F52 /* IdahoSpringTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B70AD01D0DB9B900610F52 /* IdahoSpringTests.swift */,
+				50B70AD21D0DB9B900610F52 /* Info.plist */,
+			);
+			path = IdahoSpringTests;
+			sourceTree = "<group>";
+		};
+		50B70ADA1D0DB9B900610F52 /* IdahoSpringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50B70ADB1D0DB9B900610F52 /* IdahoSpringUITests.swift */,
+				50B70ADD1D0DB9B900610F52 /* Info.plist */,
+			);
+			path = IdahoSpringUITests;
+			sourceTree = "<group>";
+		};
+		E0649C8FA1B23D8A3F5F7ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA0069F151D487F2A99A39 /* Pods_IdahoSpring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B70AB41D0DB9B800610F52 /* IdahoSpring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B70AE01D0DB9B900610F52 /* Build configuration list for PBXNativeTarget "IdahoSpring" */;
+			buildPhases = (
+				5090FD18D1E8E0AB86A90805 /* [CP] Check Pods Manifest.lock */,
+				50B70AB11D0DB9B800610F52 /* Sources */,
+				50B70AB21D0DB9B800610F52 /* Frameworks */,
+				50B70AB31D0DB9B800610F52 /* Resources */,
+				FAF0EBFC5D5E0A31D3BA7F89 /* [CP] Embed Pods Frameworks */,
+				FE938C00967BDA3CA22D1BB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdahoSpring;
+			productName = IdahoSpring;
+			productReference = 50B70AB51D0DB9B800610F52 /* IdahoSpring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50B70ACB1D0DB9B900610F52 /* IdahoSpringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B70AE31D0DB9B900610F52 /* Build configuration list for PBXNativeTarget "IdahoSpringTests" */;
+			buildPhases = (
+				50B70AC81D0DB9B900610F52 /* Sources */,
+				50B70AC91D0DB9B900610F52 /* Frameworks */,
+				50B70ACA1D0DB9B900610F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B70ACE1D0DB9B900610F52 /* PBXTargetDependency */,
+			);
+			name = IdahoSpringTests;
+			productName = IdahoSpringTests;
+			productReference = 50B70ACC1D0DB9B900610F52 /* IdahoSpringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50B70AD61D0DB9B900610F52 /* IdahoSpringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B70AE61D0DB9B900610F52 /* Build configuration list for PBXNativeTarget "IdahoSpringUITests" */;
+			buildPhases = (
+				50B70AD31D0DB9B900610F52 /* Sources */,
+				50B70AD41D0DB9B900610F52 /* Frameworks */,
+				50B70AD51D0DB9B900610F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B70AD91D0DB9B900610F52 /* PBXTargetDependency */,
+			);
+			name = IdahoSpringUITests;
+			productName = IdahoSpringUITests;
+			productReference = 50B70AD71D0DB9B900610F52 /* IdahoSpringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B70AAD1D0DB9B800610F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dongyaocun;
+				TargetAttributes = {
+					50B70AB41D0DB9B800610F52 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					50B70ACB1D0DB9B900610F52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 50B70AB41D0DB9B800610F52;
+					};
+					50B70AD61D0DB9B900610F52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 50B70AB41D0DB9B800610F52;
+					};
+				};
+			};
+			buildConfigurationList = 50B70AB01D0DB9B800610F52 /* Build configuration list for PBXProject "IdahoSpring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B70AAC1D0DB9B800610F52;
+			productRefGroup = 50B70AB61D0DB9B800610F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B70AB41D0DB9B800610F52 /* IdahoSpring */,
+				50B70ACB1D0DB9B900610F52 /* IdahoSpringTests */,
+				50B70AD61D0DB9B900610F52 /* IdahoSpringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B70AB31D0DB9B800610F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B70AC61D0DB9B900610F52 /* LaunchScreen.storyboard in Resources */,
+				50B70AEA1D0DBAF600610F52 /* GoogleService-Info.plist in Resources */,
+				50B70AC31D0DB9B900610F52 /* Assets.xcassets in Resources */,
+				50B70ABE1D0DB9B900610F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B70ACA1D0DB9B900610F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B70AD51D0DB9B900610F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5090FD18D1E8E0AB86A90805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF0EBFC5D5E0A31D3BA7F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IdahoSpring/Pods-IdahoSpring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE938C00967BDA3CA22D1BB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IdahoSpring/Pods-IdahoSpring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B70AB11D0DB9B800610F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B70AC11D0DB9B900610F52 /* IdahoSpring.xcdatamodeld in Sources */,
+				50B70ABB1D0DB9B800610F52 /* ViewController.swift in Sources */,
+				50B70AB91D0DB9B800610F52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B70AC81D0DB9B900610F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B70AD11D0DB9B900610F52 /* IdahoSpringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B70AD31D0DB9B900610F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B70ADC1D0DB9B900610F52 /* IdahoSpringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B70ACE1D0DB9B900610F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B70AB41D0DB9B800610F52 /* IdahoSpring */;
+			targetProxy = 50B70ACD1D0DB9B900610F52 /* PBXContainerItemProxy */;
+		};
+		50B70AD91D0DB9B900610F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B70AB41D0DB9B800610F52 /* IdahoSpring */;
+			targetProxy = 50B70AD81D0DB9B900610F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50B70ABC1D0DB9B900610F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B70ABD1D0DB9B900610F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50B70AC41D0DB9B900610F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B70AC51D0DB9B900610F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B70ADE1D0DB9B900610F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B70ADF1D0DB9B900610F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B70AE11D0DB9B900610F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0C2CB741D959B61D80A866 /* Pods-IdahoSpring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IdahoSpring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyaocun.idaho.IdahoSpring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50B70AE21D0DB9B900610F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4E07B7654B0DD3A6B1378F /* Pods-IdahoSpring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IdahoSpring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyaocun.idaho.IdahoSpring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50B70AE41D0DB9B900610F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IdahoSpringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyaocun.idaho.IdahoSpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdahoSpring.app/IdahoSpring";
+			};
+			name = Debug;
+		};
+		50B70AE51D0DB9B900610F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IdahoSpringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyaocun.idaho.IdahoSpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdahoSpring.app/IdahoSpring";
+			};
+			name = Release;
+		};
+		50B70AE71D0DB9B900610F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IdahoSpringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyaocun.idaho.IdahoSpringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IdahoSpring;
+			};
+			name = Debug;
+		};
+		50B70AE81D0DB9B900610F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IdahoSpringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyaocun.idaho.IdahoSpringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IdahoSpring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B70AB01D0DB9B800610F52 /* Build configuration list for PBXProject "IdahoSpring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B70ADE1D0DB9B900610F52 /* Debug */,
+				50B70ADF1D0DB9B900610F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B70AE01D0DB9B900610F52 /* Build configuration list for PBXNativeTarget "IdahoSpring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B70AE11D0DB9B900610F52 /* Debug */,
+				50B70AE21D0DB9B900610F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B70AE31D0DB9B900610F52 /* Build configuration list for PBXNativeTarget "IdahoSpringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B70AE41D0DB9B900610F52 /* Debug */,
+				50B70AE51D0DB9B900610F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B70AE61D0DB9B900610F52 /* Build configuration list for PBXNativeTarget "IdahoSpringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B70AE71D0DB9B900610F52 /* Debug */,
+				50B70AE81D0DB9B900610F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50B70ABF1D0DB9B900610F52 /* IdahoSpring.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50B70AC01D0DB9B900610F52 /* IdahoSpring.xcdatamodel */,
+			);
+			currentVersion = 50B70AC01D0DB9B900610F52 /* IdahoSpring.xcdatamodel */;
+			path = IdahoSpring.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50B70AAD1D0DB9B800610F52 /* Project object */;
+}
