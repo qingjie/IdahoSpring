@@ -13,13 +13,18 @@ import FirebaseStorage
 import GoogleMobileAds
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,GADBannerViewDelegate {
 
+    
     @IBOutlet weak var bannerView: GADBannerView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        bannerView.hidden = true
+        bannerView.delegate = self
+        
         print("Google Mobile Ads SDK version: \(GADRequest.sdkVersion())")
         bannerView.adUnitID = "ca-app-pub-3372114682508787/2781395156"
         bannerView.rootViewController = self
@@ -30,6 +35,14 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func adViewDidReceiveAd(bannerView: GADBannerView!) {
+        bannerView.hidden = false
+    }
+    
+    func adView(bannerView: GADBannerView!, didFailToReceiveAdWithError error: GADRequestError!) {
+        bannerView.hidden = true
     }
 
 

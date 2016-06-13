@@ -20,6 +20,7 @@
 		504ADD3F1D0E63F0005BA4BD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD3E1D0E63F0005BA4BD /* MessageUI.framework */; };
 		504ADD431D0E6421005BA4BD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD421D0E6421005BA4BD /* StoreKit.framework */; };
 		504ADD451D0E6427005BA4BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD441D0E6427005BA4BD /* SystemConfiguration.framework */; };
+		505DC9B21D0E6EAF00BFCB88 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DC9B11D0E6EAF00BFCB88 /* InterstitialViewController.swift */; };
 		50B70AB91D0DB9B800610F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70AB81D0DB9B800610F52 /* AppDelegate.swift */; };
 		50B70ABB1D0DB9B800610F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70ABA1D0DB9B800610F52 /* ViewController.swift */; };
 		50B70ABE1D0DB9B900610F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B70ABC1D0DB9B900610F52 /* Main.storyboard */; };
@@ -66,6 +67,7 @@
 		504ADD401D0E63F5005BA4BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		504ADD421D0E6421005BA4BD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		504ADD441D0E6427005BA4BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		505DC9B11D0E6EAF00BFCB88 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterstitialViewController.swift; path = ../InterstitialViewController.swift; sourceTree = "<group>"; };
 		50B70AB51D0DB9B800610F52 /* IdahoSpring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdahoSpring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B70AB81D0DB9B800610F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B70ABA1D0DB9B800610F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			children = (
 				50B70AB81D0DB9B800610F52 /* AppDelegate.swift */,
 				50B70ABA1D0DB9B800610F52 /* ViewController.swift */,
+				505DC9B11D0E6EAF00BFCB88 /* InterstitialViewController.swift */,
 				50B70ABC1D0DB9B900610F52 /* Main.storyboard */,
 				50B70AC21D0DB9B900610F52 /* Assets.xcassets */,
 				50B70AC41D0DB9B900610F52 /* LaunchScreen.storyboard */,
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505DC9B21D0E6EAF00BFCB88 /* InterstitialViewController.swift in Sources */,
 				50B70AC11D0DB9B900610F52 /* IdahoSpring.xcdatamodeld in Sources */,
 				50B70ABB1D0DB9B800610F52 /* ViewController.swift in Sources */,
 				50B70AB91D0DB9B800610F52 /* AppDelegate.swift in Sources */,
