@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0888B6440F8FC1AB2A10704B /* Pods_IdahoSpring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FDA0069F151D487F2A99A39 /* Pods_IdahoSpring.framework */; };
+		504ADD2D1D0E630B005BA4BD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD2C1D0E630B005BA4BD /* AdSupport.framework */; };
+		504ADD2F1D0E631A005BA4BD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD2E1D0E631A005BA4BD /* AudioToolbox.framework */; };
+		504ADD311D0E632D005BA4BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD301D0E632D005BA4BD /* AVFoundation.framework */; };
+		504ADD331D0E6335005BA4BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD321D0E6335005BA4BD /* CoreGraphics.framework */; };
+		504ADD351D0E63AD005BA4BD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD341D0E63AD005BA4BD /* CoreMedia.framework */; };
+		504ADD371D0E63BE005BA4BD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD361D0E63BE005BA4BD /* CoreTelephony.framework */; };
+		504ADD3A1D0E63D6005BA4BD /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD381D0E63D6005BA4BD /* EventKit.framework */; };
+		504ADD3B1D0E63D6005BA4BD /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD391D0E63D6005BA4BD /* EventKitUI.framework */; };
+		504ADD3D1D0E63DD005BA4BD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD3C1D0E63DD005BA4BD /* MediaPlayer.framework */; };
+		504ADD3F1D0E63F0005BA4BD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD3E1D0E63F0005BA4BD /* MessageUI.framework */; };
+		504ADD431D0E6421005BA4BD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD421D0E6421005BA4BD /* StoreKit.framework */; };
+		504ADD451D0E6427005BA4BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504ADD441D0E6427005BA4BD /* SystemConfiguration.framework */; };
 		50B70AB91D0DB9B800610F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70AB81D0DB9B800610F52 /* AppDelegate.swift */; };
 		50B70ABB1D0DB9B800610F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B70ABA1D0DB9B800610F52 /* ViewController.swift */; };
 		50B70ABE1D0DB9B900610F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B70ABC1D0DB9B900610F52 /* Main.storyboard */; };
@@ -39,6 +51,21 @@
 /* Begin PBXFileReference section */
 		0E4E07B7654B0DD3A6B1378F /* Pods-IdahoSpring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdahoSpring.release.xcconfig"; path = "Pods/Target Support Files/Pods-IdahoSpring/Pods-IdahoSpring.release.xcconfig"; sourceTree = "<group>"; };
 		1FDA0069F151D487F2A99A39 /* Pods_IdahoSpring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdahoSpring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504ADD2A1D0E5D48005BA4BD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		504ADD2B1D0E5D49005BA4BD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		504ADD2C1D0E630B005BA4BD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		504ADD2E1D0E631A005BA4BD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		504ADD301D0E632D005BA4BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		504ADD321D0E6335005BA4BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		504ADD341D0E63AD005BA4BD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		504ADD361D0E63BE005BA4BD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		504ADD381D0E63D6005BA4BD /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		504ADD391D0E63D6005BA4BD /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		504ADD3C1D0E63DD005BA4BD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		504ADD3E1D0E63F0005BA4BD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		504ADD401D0E63F5005BA4BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		504ADD421D0E6421005BA4BD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		504ADD441D0E6427005BA4BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		50B70AB51D0DB9B800610F52 /* IdahoSpring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdahoSpring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B70AB81D0DB9B800610F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B70ABA1D0DB9B800610F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +89,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504ADD451D0E6427005BA4BD /* SystemConfiguration.framework in Frameworks */,
+				504ADD431D0E6421005BA4BD /* StoreKit.framework in Frameworks */,
+				504ADD3F1D0E63F0005BA4BD /* MessageUI.framework in Frameworks */,
+				504ADD3D1D0E63DD005BA4BD /* MediaPlayer.framework in Frameworks */,
+				504ADD3A1D0E63D6005BA4BD /* EventKit.framework in Frameworks */,
+				504ADD3B1D0E63D6005BA4BD /* EventKitUI.framework in Frameworks */,
+				504ADD371D0E63BE005BA4BD /* CoreTelephony.framework in Frameworks */,
+				504ADD351D0E63AD005BA4BD /* CoreMedia.framework in Frameworks */,
+				504ADD331D0E6335005BA4BD /* CoreGraphics.framework in Frameworks */,
+				504ADD311D0E632D005BA4BD /* AVFoundation.framework in Frameworks */,
+				504ADD2F1D0E631A005BA4BD /* AudioToolbox.framework in Frameworks */,
+				504ADD2D1D0E630B005BA4BD /* AdSupport.framework in Frameworks */,
 				0888B6440F8FC1AB2A10704B /* Pods_IdahoSpring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +189,19 @@
 		E0649C8FA1B23D8A3F5F7ABC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				504ADD441D0E6427005BA4BD /* SystemConfiguration.framework */,
+				504ADD421D0E6421005BA4BD /* StoreKit.framework */,
+				504ADD401D0E63F5005BA4BD /* Security.framework */,
+				504ADD3E1D0E63F0005BA4BD /* MessageUI.framework */,
+				504ADD3C1D0E63DD005BA4BD /* MediaPlayer.framework */,
+				504ADD381D0E63D6005BA4BD /* EventKit.framework */,
+				504ADD391D0E63D6005BA4BD /* EventKitUI.framework */,
+				504ADD361D0E63BE005BA4BD /* CoreTelephony.framework */,
+				504ADD341D0E63AD005BA4BD /* CoreMedia.framework */,
+				504ADD321D0E6335005BA4BD /* CoreGraphics.framework */,
+				504ADD301D0E632D005BA4BD /* AVFoundation.framework */,
+				504ADD2E1D0E631A005BA4BD /* AudioToolbox.framework */,
+				504ADD2C1D0E630B005BA4BD /* AdSupport.framework */,
 				1FDA0069F151D487F2A99A39 /* Pods_IdahoSpring.framework */,
 			);
 			name = Frameworks;
@@ -380,6 +432,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				50B70ABD1D0DB9B900610F52 /* Base */,
+				504ADD2A1D0E5D48005BA4BD /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -388,6 +441,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				50B70AC51D0DB9B900610F52 /* Base */,
+				504ADD2B1D0E5D49005BA4BD /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -432,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -472,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

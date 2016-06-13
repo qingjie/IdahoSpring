@@ -9,11 +9,27 @@ Copyright 2016 Google Inc.
 
 Copyright 2016 Google Inc.
 
+## FirebaseCrash
+
+Copyright 2016 Google Inc.
+
 ## FirebaseInstanceID
 
 Copyright 2016 Google Inc.
 
+## FirebaseStorage
+
+Copyright 2016 Google Inc.
+
+## Google-Mobile-Ads-SDK
+
+Copyright 2011 Google Inc. All Rights Reserved.
+
 ## GoogleInterchangeUtilities
+
+Copyright 2015 Google Inc.
+
+## GoogleNetworkingUtilities
 
 Copyright 2015 Google Inc.
 
