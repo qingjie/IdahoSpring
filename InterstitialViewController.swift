@@ -19,7 +19,9 @@ class InterstitialViewController: UIViewController,GADBannerViewDelegate {
 
         interstital = GADInterstitial(adUnitID:"ca-app-pub-3372114682508787/4162226754")
         let request  = GADRequest()
+        request.testDevices = [ kGADSimulatorID ];
         interstital.loadRequest(request)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,7 +40,9 @@ class InterstitialViewController: UIViewController,GADBannerViewDelegate {
     
     func createAd() -> GADInterstitial{
         let interstital = GADInterstitial(adUnitID:"ca-app-pub-3372114682508787/4162226754")
-        interstital.loadRequest(GADRequest())
+        let request  = GADRequest()
+        request.testDevices = [ kGADSimulatorID ];
+        interstital.loadRequest(request)
         return interstital
     }
 
