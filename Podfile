@@ -8,4 +8,7 @@ target 'IdahoSpring' do
   pod 'Firebase/AdMob'
   pod 'Firebase/Crash'
   pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  # Pods for MapBoxOfflineDemo
+  pod 'Mapbox-iOS-SDK', '~> 3.2.2'
 end

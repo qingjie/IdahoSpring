@@ -13,10 +13,11 @@ import GoogleMobileAds
 class InterstitialViewController: UIViewController,GADBannerViewDelegate {
 
     var interstital:GADInterstitial!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    
         interstital = GADInterstitial(adUnitID:"ca-app-pub-3372114682508787/4162226754")
         let request  = GADRequest()
         request.testDevices = [ kGADSimulatorID ];
@@ -45,5 +46,6 @@ class InterstitialViewController: UIViewController,GADBannerViewDelegate {
         interstital.loadRequest(request)
         return interstital
     }
-
+    
+    
 }

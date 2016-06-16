@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FirebaseCrash
 import FirebaseStorage
+import FirebaseDatabase
 import GoogleMobileAds
 
 
@@ -45,6 +46,7 @@ class ViewController: UIViewController,GADBannerViewDelegate {
         bannerView.hidden = true
     }
 
+    
 
 }
 
